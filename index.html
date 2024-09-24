@@ -11,12 +11,14 @@
         <h1>
             "Quote of the day"
         </h1>
-        <blockquote>Loading...</blockquote>
-        <span>Loading...</span>
-        <div><button>Next</button>
-            <button><img src="twitter-667462_640.webp" alt="">Tweet</button>
+        <blockquote id="quote">Loading...</blockquote>
+        <span id="author">Loading...</span>
+        <div><button onclick="getQuote(api_url)">Next</button>
+            <button onclick="tweet()">Tweet</button>
         </div>
     </div>
     
+    <script src="main.js">   
+    </script>
 </body>
 </html>
